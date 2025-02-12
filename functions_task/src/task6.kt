@@ -6,9 +6,6 @@ fun main() {
 }
 
 
-fun survivalChance(supplies: Int): Int {
+fun survivalChance(supplies: Int): Int = supplies * 10
 
-    var chances: Int = supplies * 10
 
-    return chances
-}
