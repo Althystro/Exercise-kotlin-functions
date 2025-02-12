@@ -1,9 +1,9 @@
 fun main() {
-    startCamelRide(10, 5)
+    startCamelRide(10)
 
 }
 
-fun startCamelRide(time: Int, speed: Int) {
+fun startCamelRide(time: Int, speed: Int = 5) {
 
     var distance: Int = time * speed
 
