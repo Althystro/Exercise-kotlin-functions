@@ -1,7 +1,7 @@
 fun main() {
 
 
-    exploreDune(20, 3)
+    exploreDune(climbRate = 3, height = 20)
 
 
 }
